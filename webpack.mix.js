@@ -10,7 +10,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
 mix.webpackConfig({
     devServer: {
         proxy: {
-            '*': 'http://localhost:80'
+            '*': 'http://127.0.0.1:80'
         }
     }
 });
